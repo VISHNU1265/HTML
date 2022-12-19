@@ -1,0 +1,26 @@
+Bold Text -> <b>,<strong>
+Italic -> <i>,<em>
+Underline -> <u>,<ins>
+Strike Out -> <s>,<del>
+Small text -> <small>
+Super Script -> <sup>
+Subscript -> <sub>
+Mark text -><mark>
+Quotation -><blockquote>
+
+
+Types in Unordered List:
+1)disc-->default
+2)square
+3)circle
+4)None
+
+
+Types in Ordered List:
+1)1
+2)a 
+3)A 
+4)I 
+5)i
+
+

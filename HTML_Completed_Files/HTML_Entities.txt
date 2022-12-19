@@ -1,0 +1,12 @@
+copyright 
+Entity name:&copy;
+====================================
+registered trade
+Entity name: &reg;
+====================================
+dollar 
+Entity Number:&#36;
+====================================
+Rupee
+Entity Number:&#8377;
+====================================

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Table TAG</title>
+    <style>
+        body{
+            font-family: Arial,sans-serif;
+        }
+        #custom{
+            width: 100%;
+        }
+        #custom th,#custom td{
+            border: 2px solid saddlebrown;
+            padding: 10px;
+            text-align: center;
+        }
+        #custom thead{
+            background-color: #0F9D58;
+        }
+        #custom tbody tr{
+            background-color: #DB4437;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <!--
+        simple table
+        table row span
+        table col span
+        custom table with css
+    -->
+    <h2>Simple Table</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>SNo</th>
+                <th>Name</th>
+                <th>Company</th>
+                <th>Address</th>
+            </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>1</td>
+            <td>Vishnu</td>
+            <td>Google</td>
+            <td>Hyderabad</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Sai Bhanu Revanth</td>
+            <td>Microsoft</td>
+            <td>Hyderabad</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Tharun</td>
+            <td>Amazon</td>
+            <td>Banglore</td>
+        </tr>
+        </tbody>
+    </table>
+
+    <h2>Table with row span</h2>
+    <table border="1">
+        <thead>
+        <tr>
+            <th>SNo</th>
+            <th>Name</th>
+            <th>Company</th>
+            <th>Address</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>1</td>
+            <td>Vishnu</td>
+            <td>Google</td>
+            <td rowspan="2">Hyderabad</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Sai Bhanu Revanth</td>
+            <td>Microsoft</td>
+
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Tharun</td>
+            <td>Amazon</td>
+            <td>Banglore</td>
+        </tr>
+        </tbody>
+    </table>
+
+    <h2>Table with Colspan</h2>
+    <table border="1">
+        <thead>
+        <tr>
+            <th>SNo</th>
+            <th>Name</th>
+            <th colspan="2">Company & Address</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>1</td>
+            <td>Vishnu</td>
+            <td>Google</td>
+            <td>Hyderabad</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Sai Bhanu Revanth</td>
+            <td>Microsoft</td>
+            <td>Hyderabad</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Tharun</td>
+            <td>Amazon</td>
+            <td>Banglore</td>
+        </tr>
+        </tbody>
+    </table>
+
+    <h2>Simple Table</h2>
+    <table id="custom">
+        <thead>
+        <tr>
+            <th>SNo</th>
+            <th>Name</th>
+            <th>Company</th>
+            <th>Address</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>1</td>
+            <td>Vishnu</td>
+            <td>Google</td>
+            <td>Hyderabad</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Sai Bhanu Revanth</td>
+            <td>Microsoft</td>
+            <td>Hyderabad</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Tharun</td>
+            <td>Amazon</td>
+            <td>Banglore</td>
+        </tr>
+        </tbody>
+    </table>
+</body>
+</html>

@@ -1,0 +1,6 @@
+<details>
+<summary>
+details and summary are used to display widget nature
+
+for <audio> most preferable format is .mp3
+for <video> most preferable format is .mp4
